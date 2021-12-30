@@ -57,7 +57,10 @@ local library = safeLoadstring('UI', 'https://raw.githubusercontent.com/wally-rb
 local mainMaid = maid.new()
 
 local messages = {
-    'Edited This Script I Claim Ownership of it.', 
+    'Edited This Script I Claim Ownership of it.',
+    'Lol, look at this pathetic skid.',
+    'peasant',
+    'Yuck get outta here', 
     "Ez Dog Water"
 }
 
@@ -213,7 +216,7 @@ if (character) then
 end
 client.CharacterAdded:connect(initLogic)
 
-local window = library:CreateWindow('SA&FYT') do
+local window = library:CreateWindow('Optional') do
     local folder = window:AddFolder('Main') do
         folder:AddToggle({text = 'Auto attack', flag = 'autoAttack'})
         folder:AddToggle({text = 'Kill say', flag = 'killSay'})
