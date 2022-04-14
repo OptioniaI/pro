@@ -57,11 +57,20 @@ local library = safeLoadstring('UI', 'https://raw.githubusercontent.com/wally-rb
 local mainMaid = maid.new()
 
 local messages = {
-    'Edited This Script I Claim Ownership of it.',
+    'imagine not owning Legend's Hub.',
     'Lol, look at this pathetic skid.',
     'peasant',
     'Yuck get outta here', 
-    "Ez Dog Water"
+    "Ez Dog Water",
+    "imagine thinking i'll be banned",
+    "L",
+    "Hidden # 46 42 was here",
+    "samuel on bottom",
+    "all'd",
+    "hidden pro",
+    "nepples",
+    "skid skid",
+    "L land whale"
 }
 
 local randomObj = Random.new()
