@@ -184,7 +184,7 @@ local function initLogic(character)
 
                 if (isNearSpawn) then continue end
 
-                if distance <= 30 then
+                if distance <= 22.5 then
                     if (not target) then target = pCharacter end
 
                     firetouchinterest(handle, pRoot, 0) 
@@ -236,7 +236,7 @@ local window = library:CreateWindow('Optional') do
         end})
         
         folder:AddToggle({text = 'Speed boost', flag = 'speedHack'})
-        folder:AddSlider({text = 'Speed factor', flag = 'speedFactor', min = 0.5, max = 1, float = 0.1})
+        folder:AddSlider({text = 'Speed factor', flag = 'speedFactor', min = 0.4, max = 5, float = 0.1})
         folder:AddBind({text = 'Speed bind', flag = 'speedBind', hold = true, callback = function(value)
             library._speedHackHeld = (not value)
         end})
