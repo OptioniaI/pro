@@ -57,7 +57,7 @@ local library = safeLoadstring('UI', 'https://raw.githubusercontent.com/wally-rb
 local mainMaid = maid.new()
 
 local messages = {
-    'imagine not owning Legend's Hub.',
+    'imagine not owning Legends Hub.',
     'Lol, look at this pathetic skid.',
     'peasant',
     'Yuck get outta here', 
