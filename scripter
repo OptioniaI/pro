@@ -69,8 +69,8 @@ local messages = {
     "all'd",
     "hidden pro",
     "nepples",
-    "skid skid",
-    "L land whale"
+    "L land whale",
+    "imagine using a sword"
 }
 
 local randomObj = Random.new()
