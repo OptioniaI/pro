@@ -184,7 +184,7 @@ local function initLogic(character)
 
                 if (isNearSpawn) then continue end
 
-                if distance <= 15 then
+                if distance <= 22.5 then
                     if (not target) then target = pCharacter end
 
                     firetouchinterest(handle, pRoot, 0) 
